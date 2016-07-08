@@ -3,39 +3,56 @@
 .icon
 
 .title {
-	font-size: 25px;
+	font-size: 45px;
 	font-family: 'Quicksand', sans-serif;
+	color: #2d3c49;
 
 }
 
 .title2 {
 	font-size: 15px;
 	font-family: 'Quicksand', sans-serif;
+	color: #2d3c49;
 
 }
 
+.title3 {
+	font-size: 40px;
+	font-family: 'Quicksand', sans-serif;
+	color: #7d97ad;
+
+}
 .container 
+
 .bigpicture{ 
-	height:200px;
-	width: 400px;
+	height:25%;
+	width: 25%;
  }
 
+ .projects
 
-.appify
-{ 
-	height:200px;
-	width: 200px;
- }
+.Appify{
+	font-size: 20px;
+	font-family: 'Quicksand', sans-serif;
+	color: #2d3c49;
+	height: 25%;
+	width: 25%;
 
-.sunflower{
-	width: 200px;
-	height:200px;
 }
 
-.bokeh{
-	width: 200px;
-	height:200px;
+.Sunflower{
+	font-size: 20px;
+	font-family: 'Quicksand', sans-serif;
+	color: #2d3c49;
 }
+
+.Bokeh{
+	font-size: 20px;
+	font-family: 'Quicksand', sans-serif;
+	color: #2d3c49;
+}
+
+
 
 /*If we have a small screen I have set things so .Appify .Sunflower .Bokeh are just one under each other and big picture is reduced at that size*/
 /* When the size gets bigger than 361px, so the user has a big screen then each lies next to each other ocuppying 33% of the screen each*/
