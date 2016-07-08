@@ -25,8 +25,8 @@
 .container 
 
 .bigpicture{ 
-	height:25%;
-	width: 25%;
+	height: auto;
+	max-width:100%
  }
 
  .projects
@@ -35,8 +35,12 @@
 	font-size: 20px;
 	font-family: 'Quicksand', sans-serif;
 	color: #2d3c49;
-	height: 25%;
-	width: 25%;
+	
+}
+
+.Appify_img{
+	max-width:100%
+	height: auto;
 
 }
 
@@ -46,12 +50,24 @@
 	color: #2d3c49;
 }
 
+.Sunflower_img{
+	max-width:100%
+	height: auto;
+
+}
+
 .Bokeh{
 	font-size: 20px;
 	font-family: 'Quicksand', sans-serif;
 	color: #2d3c49;
+	
 }
 
+.Bokeh_img{
+	max-width:100%
+	height: auto;
+
+}
 
 
 /*If we have a small screen I have set things so .Appify .Sunflower .Bokeh are just one under each other and big picture is reduced at that size*/
