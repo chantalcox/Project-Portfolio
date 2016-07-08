@@ -1,0 +1,59 @@
+/* I am importing some Google fonts so I get a font similar to the one in the pdf provided for the exercise */
+@import url(https://fonts.googleapis.com/css?family=Quicksand:300,400);
+.icon
+
+.title {
+	font-size: 25px;
+	font-family: 'Quicksand', sans-serif;
+
+}
+
+.title2 {
+	font-size: 15px;
+	font-family: 'Quicksand', sans-serif;
+
+}
+
+.container 
+.bigpicture{ 
+	height:200px;
+	width: 400px;
+ }
+
+
+.appify
+{ 
+	height:200px;
+	width: 200px;
+ }
+
+.sunflower{
+	width: 200px;
+	height:200px;
+}
+
+.bokeh{
+	width: 200px;
+	height:200px;
+}
+
+/*If we have a small screen I have set things so .Appify .Sunflower .Bokeh are just one under each other and big picture is reduced at that size*/
+/* When the size gets bigger than 361px, so the user has a big screen then each lies next to each other ocuppying 33% of the screen each*/
+@media screen and (min-width: 361px){
+
+	.bigpicture{
+		width: 
+	}
+	.appify{
+		width:33%;
+	}
+
+	.sunflower{
+		width: 33%;
+	}
+
+	.bokeh{
+		width: 33%;
+	}
+
+}
