@@ -19,8 +19,8 @@ img, embed, object, video {
     max-height: 80px;
 }
 
-@media only screen and (max-width: 300px) {
-    
+@media screen and (max-width: 767px) {
+  /* Code to center logo and title text goes here */
 }
 
 .image { 
@@ -32,14 +32,14 @@ img, embed, object, video {
 body{
 
     font-family: 'Titillium Web', sans-serif;
-    color: #1475BB;
+    color: #7d97ad;
     font-weight: 600;
   
 }
 
 
-.text-muted {
-    color: #BCBBBB;
+.text{
+    color: #2d3c49;
 }
 
 .text-thin {
@@ -55,5 +55,7 @@ body{
 .title-logo {
     margin-top: 20px;
 }
-
+.footer {
+	align-content: center;
+}
 

@@ -1,75 +1,63 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
-      <head>
-          <meta charset="utf-8">
-          <meta http-equiv="X-UA-Compatible" content="IE=edge">
-	        <link rel="stylesheet" href="css/bootstrap.min.css"> <!-- load bootstrap styles first -->
-          <link rel="stylesheet" href="css/styles.css"> <!-- add custom styles + override bootstrap styles-->
-
-          <link href='https://fonts.googleapis.com/css?family=Titillium+Web:300,400,300italic,600' rel='stylesheet' type='text/css'>
-          <link href='https://fonts.googleapis.com/css?family=Work+Sans:400,200' rel='stylesheet' type='text/css'>
-	       <title>Portfolio</title>
-	     
-
-      </head>
-
-
-      <body>
-                <div class="container">
-                      <div class="row">
-                          <div class="col-md-6 ">
-                           <!-- Using a PNG format for the icon as it is a vector and not raster-->
-
-                              <img class="title-logo" src="images/logo.png" atl="Logo" width="100" height="100">
-                          </div>
-                          <div class="col-md-6 text-right text-uppercase">
-                              <h1 class=" title-super text-thin">Chantal Marin</h1>
-                  <h3>designer and full stack engineer</h3>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <!-- load bootstrap styles first -->
+        <link rel="stylesheet" href="css/style.css">
+        <!-- add custom styles + override bootstrap styles-->
+        <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,300italic,600" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,200" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Portfolio</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 ">
+                    <!-- Using a PNG format for the icon as it is a vector and not raster-->
+                    <img class="title-logo" src="images/logo.png" atl="Logo" width="100" height="100">
                 </div>
-              </div>
-
-                <div class="row">
-              <div class="col-md-12">
-                <img class ="img-responsive" src="images/pict1.jpg" alt="First Image">
-               
-              </div>
-              </div>
-            
-    <!-- I am using bootstrap here. Since we have 3 images I want to create three equal-width columns so I use col-sm-4. These columns are centered in the page with the parent class .container-->
-
-    <div class="row">
-          <div class="col-md-12">
-            <h2 class="text">Featured Work</h2>
-          </div>
-    </div>
-
-    <div class="row">
-      <div class="col-md-4">
-        <img class ="img-responsive" src="images/project-1.jpg" alt="Project 1" data-toggle="modal" width="350" height="250"data-target="#project1">
-        <h3>APPIFY</h3>
-        <h5>http://github.com/chantalmarin</h5>
-       
-      </div>
-      <div class="col-md-4">
-        <img class ="img-responsive" src="images/project-2-350-250.jpg" alt="Project 2" width="350" height="250" data-toggle="modal" data-target="#project2">
-        <h3>SUNFLOWER</h3>
-        <h5>http://github.com/chantalmarin</h5>
-     
-      </div>
-      <div class="col-md-4">
-        <img class ="img-responsive" src="images/project-3-350-250.jpg" alt="Project 3" width="350" height="250" data-toggle="modal" data-target="#project3">
-        <h3>BOKEH</h3>
-        <h5>http://github.com/chantalmarin</h5>
-       
-      </div>
-    </div>
-    </div>
-
-
-            		      
-  </body>
-
-
-  <script src="js/bootstrap.min.js" ></script>
+                <div class="col-md-6 text-right text-uppercase">
+                    <h1 class=" title-super text-thin">Chantal Marin</h1>
+                    <h3>designer and full stack engineer</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <img class ="img-responsive" src="images/pict1.jpg" alt="First Image">
+                </div>
+            </div>
+            <!-- I am using bootstrap here. Since we have 3 images I want to create three equal-width columns so I use col-sm-4. These columns are centered in the page with the parent class .container-->
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="text">Featured Work</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <img class ="img-responsive" src="images/project-1.jpg" alt="Project 1"  width="350" height="250"data-target="#project1">
+                    <h3>APPIFY</h3>
+                    <h5>http://github.com/chantalmarin</h5>
+                </div>
+                <div class="col-sm-6">
+                    <img class ="img-responsive" src="images/project-2-350-250.jpg" alt="Project 2" width="350" height="250"  data-target="#project2">
+                    <h3>SUNFLOWER</h3>
+                    <h5>http://github.com/chantalmarin</h5>
+                </div>
+                <div class="col-sm-6">
+                    <img class ="img-responsive" src="images/project-3-350-250.jpg" alt="Project 3" width="350" height="250" data-target="#project3">
+                    <h3>BOKEH</h3>
+                    <h5>http://github.com/chantalmarin</h5>
+                </div>
+            </div>
+        </div>
+        <script src="js/bootstrap.min.js" ></script>
+    </body>
+    <footer>
+        <p>Made by: Chantal Marin</p>
+        <p>Contact information: <a href="mailto:cmarin@hoodoopro.com">
+            cmarin@hoodoopro.com</a>.
+        </p>
+    </footer>
